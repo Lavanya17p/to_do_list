@@ -1,0 +1,131 @@
+body{
+    background: darkcyan;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 59px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text{
+    width: 80%;
+    padding: 30px;
+    background: white;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+p{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first{
+    margin-top: 10px;
+    color:#a5a19c;
+}
+
+#second{
+    color:brown;
+}
+
+#third{
+    color:#a9a8a4;
+    margin-bottom: 30px;
+}
+
+#userInput{
+    border: none;
+    padding: 18px 15px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 15px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#enter{
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #025F70;
+    color:rgb(151, 146, 146);
+    transition: all 0.75s ease;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#enter:hover{
+    color: #FFCD50;
+    background: cadetblue;
+}
+
+ul{
+    text-align: left;
+    margin-top: 20px;
+    width: 70%;
+}
+
+li{
+    list-style-type: none;
+    padding: 15px 20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    background: lightseagreen;
+    margin-bottom: 10px;
+    transition: all 0.75s ease;
+    width: 32%;
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    /* overflow-wrap: break-word; */
+    overflow:hidden;
+   
+}
+
+li:hover{
+    background: cadetblue;
+}
+
+li button{
+    float: right;
+    font-weight: normal;
+    background: none;
+    border: none;
+    
+}
+
+input{
+    border-radius: 5px;
+    min-width: 30%;
+    padding: 5px;
+    border: none;
+}
+
+.done{
+    background: #51DF70 ;
+    color:#fff;
+}
+
+.delete{
+    display: none;
+}
+
+.listItems ul{
+    width: 70%;
+}
+
+
